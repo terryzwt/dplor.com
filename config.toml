@@ -1,0 +1,4 @@
+baseURL = "http://hugo.dplor.com/"
+languageCode = "en-us"
+title = "卡萨布兰卡分享博客"
+theme = "ananke"
