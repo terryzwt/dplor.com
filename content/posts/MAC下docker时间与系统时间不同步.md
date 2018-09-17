@@ -1,3 +1,8 @@
+---
+title: "MAC下docker时间与系统时间不同步"
+date: 2018-09-17T19:27:38+08:00
+draft: false
+
 ### 问题
 在MAC下，使用docker-machine跑的虚拟机，使用docker-machine-nfs加速，在docker-machine上面跑的docker，运行一段时间后，发现docker时间变慢了。
 通过docker machine运行的虚拟机的时间也变慢了。
