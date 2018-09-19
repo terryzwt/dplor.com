@@ -1,6 +1,6 @@
 ---
 title: fish shell小技巧
-date: 2019-09-19T13:26+08:00
+date: 2018-09-19T13:26+08:00
 draft: false
 ---
 
