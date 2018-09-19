@@ -28,3 +28,6 @@ alias vi="nvim"
 ```bash
 alias vi="nvim"
 ```
+
+### 参考链接
+- https://zhuanlan.zhihu.com/p/26157081
