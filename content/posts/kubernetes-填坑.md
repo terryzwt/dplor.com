@@ -2,6 +2,7 @@
 title: "kubernetes填坑"
 date: 2018-10-21T22:00:00+800
 draft: false
+---
 
 ### 硬盘不够不够
 minikube start --vm-driver hyperkit --disk-size 10g
