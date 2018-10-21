@@ -1,6 +1,6 @@
 ---
 title: "kubernetes填坑"
-date: 2018-10-21T22:00:00+800
+date: 2018-10-21T22:00:00+8:00
 draft: false
 ---
 
