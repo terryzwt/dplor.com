@@ -4,7 +4,7 @@ date: 2018-10-29T08:00:00+08:00
 draft: false
 ---
 
-```
+<pre>
 Running pre-create checks...
 Creating machine...
 (m1) Copying /Users/terry/.docker/machine/cache/boot2docker.iso to /Users/terry/.docker/machine/machines/m1/boot2docker.iso...
@@ -37,11 +37,16 @@ Checking connection to Docker...
 Error creating machine: Error checking the host: Error checking and/or regenerating the certs: There was an error validating certificates for host "192.168.99.101:2376": dial tcp 192.168.99.101:2376: i/o timeout
 You can attempt to regenerate them using 'docker-machine regenerate-certs [name]'.
 Be advised that this will trigger a Docker daemon restart which might stop running containers.
-```
+</pre>
 
 docker-machine的IP ping不通。
 通过如下命令解决，也就是重启网卡。
+
 `
 sudo ifconfig vboxnet0 down
 sudo ifconfig vboxnet0 up
 `
+
+### 参考：
+
+https://github.com/docker/machine/issues/4100
